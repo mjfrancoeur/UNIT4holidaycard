@@ -13,12 +13,12 @@ h2{
 
 .donate h2 {text-shadow: 2px 2px #FFFFFF;}
 
-.eagles h2 {text-shadow: 2px 2px #ff0000;}
+.signature h2, h3 {text-shadow: 2px 2px #ff0000;}
 p {
     font-size: 20px;
 }
     
-.header, .donate, .eagles {
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,24 +31,30 @@ p {
     background-image: url("https://media.giphy.com/media/12wteMTXxjLaVO/giphy.gif");
 }
 
-.donate {
-    background: red;
-}
-.eagles {
+.signature {
     background: green;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
 }
 
 .pics img{
+    border: 5px solid black;
     width: 20%;
     -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
+
 .pics {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 40px 0;
+}
+
+.pic-container {
+  border: 10px solid black;
 }
 
 .pics img:hover {
