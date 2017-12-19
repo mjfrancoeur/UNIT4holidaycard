@@ -11,14 +11,14 @@ h2{
     font-size: 30px;
 }
 
-#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+.donate h2 {text-shadow: 2px 2px #FFFFFF;}
 
-#eagles h2 {text-shadow: 2px 2px #ff0000;}
+.eagles h2 {text-shadow: 2px 2px #ff0000;}
 p {
     font-size: 20px;
 }
     
-#header, #donate, #eagles {
+.header, .donate, .eagles {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,37 +26,37 @@ p {
     padding: 40px 0;
 }
 
-#header {
+.header {
     color: white;
     background-image: url("http://rs146.pbsrc.com/albums/r270/DahliaxGraphics/Glitter/StarryNight.gif~c200");
 }
 
-#donate {
+.donate {
     background: red;
 }
-#eagles {
+.eagles {
     background: blue;
     color: white;
 }
 
-#pics img{
+.pics img{
     width: 20%;
     -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-#pics {
+.pics {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 40px 0;
 }
 
-#pics img:hover {
+.pics img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
-#donate button {
+.donate button {
     width: 300px;   
     height: 50px;
     font-size: 20px;
@@ -66,7 +66,7 @@ p {
     border: solid white 3px;
 }
 
-#donate button:hover {
+.donate button:hover {
     background: yellow;
     color: black;
 }
